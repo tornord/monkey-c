@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<GroundOverlay>
+	<name>StoraMossen768</name>
+	<color>b0ffffff</color>
+	<Icon>
+		<href>/Users/tor.nordqvist/temp/MapOfflineGPS/img/StoraMossen768.jpg</href>
+		<viewBoundScale>0.75</viewBoundScale>
+	</Icon>
+	<LatLonBox>
+		<north>59.33012646630886</north>
+		<south>59.32355399303385</south>
+		<east>17.97124294088299</east>
+		<west>17.95837000707572</west>
+	</LatLonBox>
+</GroundOverlay>
+</kml>

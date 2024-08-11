@@ -1,0 +1,14 @@
+<resources>
+  <drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="m0" filename="0.png"></bitmap>
+    <bitmap id="m1" filename="1.png"></bitmap>
+    <bitmap id="m2" filename="2.png"></bitmap>
+    <bitmap id="m3" filename="3.png"></bitmap>
+    <bitmap id="m4" filename="4.png"></bitmap>
+    <bitmap id="m5" filename="5.png"></bitmap>
+    <bitmap id="m6" filename="6.png"></bitmap>
+    <bitmap id="m7" filename="7.png"></bitmap>
+    <bitmap id="m8" filename="8.png"></bitmap>
+  </drawables>
+</resources>

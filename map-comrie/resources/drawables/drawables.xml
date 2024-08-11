@@ -1,0 +1,29 @@
+<resources>
+  <drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="m0" filename="0.png"></bitmap>
+    <bitmap id="m1" filename="1.png"></bitmap>
+    <bitmap id="m2" filename="2.png"></bitmap>
+    <bitmap id="m3" filename="3.png"></bitmap>
+    <bitmap id="m4" filename="4.png"></bitmap>
+    <bitmap id="m5" filename="5.png"></bitmap>
+    <bitmap id="m6" filename="6.png"></bitmap>
+    <bitmap id="m7" filename="7.png"></bitmap>
+    <bitmap id="m8" filename="8.png"></bitmap>
+    <bitmap id="m9" filename="9.png"></bitmap>
+    <bitmap id="m10" filename="10.png"></bitmap>
+    <bitmap id="m11" filename="11.png"></bitmap>
+    <bitmap id="m12" filename="12.png"></bitmap>
+    <bitmap id="m13" filename="13.png"></bitmap>
+    <bitmap id="m14" filename="14.png"></bitmap>
+    <bitmap id="m15" filename="15.png"></bitmap>
+    <bitmap id="m16" filename="16.png"></bitmap>
+    <bitmap id="m17" filename="17.png"></bitmap>
+    <bitmap id="m18" filename="18.png"></bitmap>
+    <bitmap id="m19" filename="19.png"></bitmap>
+    <bitmap id="m20" filename="20.png"></bitmap>
+    <bitmap id="m21" filename="21.png"></bitmap>
+    <bitmap id="m22" filename="22.png"></bitmap>
+    <bitmap id="m23" filename="23.png"></bitmap>
+  </drawables>
+</resources>

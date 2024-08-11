@@ -1,0 +1,8 @@
+.env
+*.prg
+*.prg.debug.xml
+bin
+gen
+internal-mir
+mir
+node_modules

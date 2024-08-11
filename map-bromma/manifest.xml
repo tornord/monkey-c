@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="1">
+  <iq:application entry="Map" id="cefb8693-efad-4f74-aef6-58cdc71773c5" launcherIcon="@Drawables.LauncherIcon" name="@Strings.AppName" type="datafield" minSdkVersion="3.1.0">
+    <iq:products>
+      <iq:product id="edge1030plus"/>
+    </iq:products>
+    <iq:permissions>
+      <iq:uses-permission id="Positioning"/>
+    </iq:permissions>
+    <iq:languages/>
+    <iq:barrels/>
+  </iq:application>
+</iq:manifest>

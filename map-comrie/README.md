@@ -80,6 +80,9 @@ monkeyc -y dev_key.der -f MapOfflineGPS\monkey.jungle -r -o Map.prg -d DEVICE
 https://connect.garmin.com/modern/course/148690965
 https://caltopo.com/map.html#ll=56.31063,-4.16227&z=12&b=mbt
 
+## Convert between BNG and LatLng
+https://webapps.bgs.ac.uk/data/webservices/convertForm.cfm
+
 ```
 magick img/CalTopo-GlenArtney.png -crop 256x256 resources/drawables/%d.png
 ```

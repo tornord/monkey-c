@@ -2,6 +2,7 @@ import Jimp from "jimp";
 
 import { interpRS, interpXY } from "./bilinear-interpolation";
 import { bicubicInterpolation } from "./bicubic-interpolation";
+import { bngToWgs84 } from "./convertBng";
 
 // async function main() {
 //   const w = 101;
@@ -83,4 +84,26 @@ async function main() {
   res.write("grid101x10_corr.jpg");
 }
 
-main();
+function calcHarveyMapsGlenArtney() {
+  const g = [
+    [61, 23, 25.5, 83],
+    [77, 23, 1534, 36.5],
+    [61, 12, 59.5, 1121],
+    [77, 12, 1563.5, 1074.5],
+  ];
+  const p00 = interpRS(0, 0, ...g.map((v) => [v[2], v[3]]).flat());
+  const r00 = interpXY(p00[0], p00[1], ...g.map((v) => [v[0], v[1]]).flat());
+  const p11 = interpRS(1599, 1199, ...g.map((v) => [v[2], v[3]]).flat());
+  const r11 = interpXY(p11[0], p11[1], ...g.map((v) => [v[0], v[1]]).flat());
+  console.log(
+    r00,
+    r11,
+    bngToWgs84(1000 * (200 + r00[0]), 1000 * (700 + r00[1])),
+    bngToWgs84(1000 * (200 + r11[0]), 1000 * (700 + r11[1]))
+  );
+  // => [-4.256908010497348, 56.38668380845717]
+  // => [-3.9823715395039954, 56.27260837500266]
+}
+
+calcHarveyMapsGlenArtney();
+// main();

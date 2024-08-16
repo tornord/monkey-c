@@ -25,5 +25,29 @@
     <bitmap id="m21" filename="21.png"></bitmap>
     <bitmap id="m22" filename="22.png"></bitmap>
     <bitmap id="m23" filename="23.png"></bitmap>
+    <bitmap id="m24" filename="24.png"></bitmap>
+    <bitmap id="m25" filename="25.png"></bitmap>
+    <bitmap id="m26" filename="26.png"></bitmap>
+    <bitmap id="m27" filename="27.png"></bitmap>
+    <bitmap id="m28" filename="28.png"></bitmap>
+    <bitmap id="m29" filename="29.png"></bitmap>
+    <bitmap id="m30" filename="30.png"></bitmap>
+    <bitmap id="m31" filename="31.png"></bitmap>
+    <bitmap id="m32" filename="32.png"></bitmap>
+    <bitmap id="m33" filename="33.png"></bitmap>
+    <bitmap id="m34" filename="34.png"></bitmap>
+    <bitmap id="m35" filename="35.png"></bitmap>
+    <bitmap id="m36" filename="36.png"></bitmap>
+    <bitmap id="m37" filename="37.png"></bitmap>
+    <bitmap id="m38" filename="38.png"></bitmap>
+    <bitmap id="m39" filename="39.png"></bitmap>
+    <bitmap id="m40" filename="40.png"></bitmap>
+    <bitmap id="m41" filename="41.png"></bitmap>
+    <bitmap id="m42" filename="42.png"></bitmap>
+    <bitmap id="m43" filename="43.png"></bitmap>
+    <bitmap id="m44" filename="44.png"></bitmap>
+    <bitmap id="m45" filename="45.png"></bitmap>
+    <bitmap id="m46" filename="46.png"></bitmap>
+    <bitmap id="m47" filename="47.png"></bitmap>
   </drawables>
 </resources>

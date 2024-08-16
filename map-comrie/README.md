@@ -87,3 +87,7 @@ https://webapps.bgs.ac.uk/data/webservices/convertForm.cfm
 ```
 magick img/CalTopo-GlenArtney.png -crop 256x256 resources/drawables/%d.png
 ```
+
+```
+magick img/HarveyMaps-GlenArtney.png -crop 200x200 resources/drawables/%d.png
+```

@@ -18,14 +18,22 @@ class DataField extends WatchUi.DataField {
   // <east>17.97124294088299</east>
   // <west>17.95837000707572</west>
 
-  var minLat = 56.28660;
-  var maxLat = 56.38400;
-  var minLon = -4.24380;
-  var maxLon = -3.98055;
+  // var minLat = 56.28660;
+  // var maxLat = 56.38400;
+  // var minLon = -4.24380;
+  // var maxLon = -3.98055;
 
-  var imgs = 256;
-  var rx = 6;
-  var ry = 4;
+  // => [-4.256908010497348, 56.38668380845717]
+  // => [-3.9823715395039954, 56.27260837500266]
+
+  var minLat = 56.27260837500266;
+  var maxLat = 56.38668380845717;
+  var minLon = -4.256908010497348;
+  var maxLon = -3.9823715395039954;
+
+  var imgs = 200;
+  var rx = 8;
+  var ry = 6;
   var tt = maxLat - minLat;
   var nn = maxLon - minLon;
 
@@ -85,6 +93,30 @@ class DataField extends WatchUi.DataField {
         :m21,
         :m22,
         :m23,
+        :m24,
+        :m25,
+        :m26,
+        :m27,
+        :m28,
+        :m29,
+        :m30,
+        :m31,
+        :m32,
+        :m33,
+        :m34,
+        :m35,
+        :m36,
+        :m37,
+        :m38,
+        :m39,
+        :m40,
+        :m41,
+        :m42,
+        :m43,
+        :m44,
+        :m45,
+        :m46,
+        :m47,
       ];
 
       pos = npos;

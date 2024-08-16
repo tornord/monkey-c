@@ -76,6 +76,12 @@ const StyledApp = styled.div(
 // 8,5 = 42.2, 85.2
 // 8,8 = 77.2, 92.4
 
+// HarveyMaps-GlenArtney
+// 61, 23, 25.5 , 83
+// 77, 23, 1534 , 36.5
+// 61, 12, 59.5 , 1121
+// 77, 23, 1563.5 , 1074.5
+
 interface AppState {
   dragX: number | null;
   dragY: number | null;
@@ -99,7 +105,7 @@ export function App() {
     const canvas = ref.current;
     if (!canvas) return;
     const loadImg = new Image();
-    loadImg.src = "./GlenArtney.jpg";
+    loadImg.src = "./HarveyMaps-GlenArtney.png";
     loadImg.onload = () => {
       setImg(loadImg);
     };
@@ -129,7 +135,7 @@ export function App() {
         onClick={(e) => {
           const x = (e.clientX - e.target.offsetLeft) / zoomLevel;
           const y = (e.clientY - e.target.offsetTop) / zoomLevel;
-          console.log("click", x, y);
+          console.log("click", x, ",", y);
         }}
         onMouseDown={(e) => {
           let dragX = e.clientX - e.target.offsetLeft;

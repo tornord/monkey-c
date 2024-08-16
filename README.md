@@ -8,3 +8,7 @@ https://gitlab.com/ravenfeld/Connect-IQ-DataField-GPS/-/blob/master/source/GpsDa
 https://github.com/mattpauldavies/pedalgeek/
 
 https://www.outdooractive.com/en/routeplanner/
+
+```
+magick img/GrönaKartanBromma.png -crop 200x200 resources/drawables/%d.png
+```

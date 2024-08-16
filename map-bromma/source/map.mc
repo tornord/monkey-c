@@ -26,14 +26,14 @@ class DataField extends WatchUi.DataField {
   // <east>17.97124294088299</east>
   // <west>17.95837000707572</west>
 
-  var minLat = 59.32355399303385;
-  var maxLat = 59.33012646630886;
-  var minLon = 17.95837000707572;
-  var maxLon = 17.97124294088299;
+  var minLat = 59.312440;
+  var maxLat = 59.342562;
+  var minLon = 17.911245;
+  var maxLon = 17.987667;
 
-  var imgs = 256;
-  var rx = 768 / imgs;
-  var ry = 768 / imgs;
+  var imgs = 200;
+  var rx = 8;
+  var ry = 6;
   var tt = maxLat - minLat;
   var nn = maxLon - minLon;
 
@@ -60,16 +60,7 @@ class DataField extends WatchUi.DataField {
 
     var npos = yy * rx + xx;
     if (pos != npos) {
-      // var r = [ :m0, :m1, :m2, :m3, :m4, :m5, :m6, :m7,
-      //           :m8, :m9,:m10,:m11,:m12,:m13,:m14,:m15,
-      //           :m16,:m17,:m18,:m19,:m20,:m21,:m22,:m23,
-      //           :m24,:m25,:m26,:m27,:m28,:m29,:m30,:m31,
-      //           :m32,:m33,:m34,:m35,:m36,:m37,:m38,:m39,
-      //           :m40,:m41,:m42,:m43,:m44,:m45,:m46,:m47,
-      //           :m48,:m49,:m50,:m51,:m52,:m53,:m54,:m55,
-      //           :m56,:m57,:m58,:m59,:m60,:m61,:m62,:m63];
-      var r = [:m0, :m1, :m2, :m3, :m4, :m5, :m6, :m7, :m8];
-
+      var r = getMapArray();
       pos = npos;
       var i = 0;
       for (var iy = yy - 1; iy <= yy + 1; iy++) {

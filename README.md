@@ -8,3 +8,14 @@ https://gitlab.com/ravenfeld/Connect-IQ-DataField-GPS/-/blob/master/source/GpsDa
 https://github.com/mattpauldavies/pedalgeek/
 
 https://www.outdooractive.com/en/routeplanner/
+https://caltopo.com/map.html
+
+```
+magick img/GrönaKartanBromma.png -crop 200x200 resources/drawables/%d.png
+```
+
+## Getting started
+
+Clone this repo
+Add Monkey C extention to VS Code
+In VS Code run CMD+SHIFT+P Monkey C: Generate a Developer Key, put it in $HOME folder

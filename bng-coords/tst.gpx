@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version="1.1" creator="https://www.komoot.de" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>TST</name>
+    <author>
+      <link href="https://www.komoot.de">
+        <text>komoot</text>
+        <type>text/html</type>
+      </link>
+    </author>
+  </metadata>
+  <trk>
+    <name>TST</name>
+    <trkseg>
+      <trkpt lat="54.5039757" lon="-2.6846842">
+        <ele>285.219320</ele>
+        <time>2025-10-15T09:32:44.798Z</time>
+      </trkpt>
+      <trkpt lat="54.5039757" lon="-2.6846842">
+        <ele>285.219320</ele>
+        <time>2025-10-15T09:42:44.798Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

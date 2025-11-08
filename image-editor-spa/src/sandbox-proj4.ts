@@ -20,10 +20,15 @@ assert.deepEqual(
 const x3 = proj4("WGS84", bng, [-4.0262814, 56.3401097]);
 console.log(x3.map(Math.round));
 
-let minLat = 56.2866;
-let maxLat = 56.384;
-let minLon = -4.2438;
-let maxLon = -3.98055;
+const minLat = 54.45;
+const maxLat = 54.59;
+const minLon = -2.94;
+const maxLon = -2.67;
+
+// let minLat = 56.2866;
+// let maxLat = 56.384;
+// let minLon = -4.2438;
+// let maxLon = -3.98055;
 
 let N = 4;
 let res = [];
